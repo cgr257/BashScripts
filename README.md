@@ -10,3 +10,6 @@ get arbitrary number of bytes from /dev/urandom, encrypt them with a gpg public 
 redditrip.sh
 link scraper for reddit.com. Gets .json data for subreddits specified at the top of the script then puts external links in two text files, one for links to youtube.com and one for links to everything else. If desired other tools like wget or youtube-dl could then be used to process the resulting lists to, e.g. automatically download all of the videos from youtube that are currently on the front page of reddit.com/r/videos.
 
+ip-external.sh
+simple script to determine the external ip address and get information 
+about it from the geo-ip database
